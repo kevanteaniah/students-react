@@ -1,12 +1,11 @@
-import Student from "./Student"
+import Student from "./Student.jsx"
 
 const StudentList = (props) => {
   return (
     <>
-      <h2>This is a student list component!</h2>
-      {props.students.map(student => 
+      <h4>{props.students.map(student => 
       <Student key={student.name} student={student}/>
-      )}
+      )}</h4>
     </>
   )
 }

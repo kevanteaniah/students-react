@@ -1,4 +1,5 @@
 
+
 import './App.css';
 import StudentList from './StudentList';
 
@@ -67,6 +68,7 @@ function App() {
   return (
     <div className="App">
       <StudentList students={students} />
+
     </div>
   );
 }
